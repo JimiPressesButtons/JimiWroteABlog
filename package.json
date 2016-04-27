@@ -13,7 +13,8 @@
     "gulp-uglify": "^1.5.3",
     "jquery": "^2.2.3",
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "skeleton-css": "^2.0.4"
   },
   "devDependencies": {
     "babelify": "^6.2.0",

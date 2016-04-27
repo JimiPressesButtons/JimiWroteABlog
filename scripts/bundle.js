@@ -32760,26 +32760,83 @@ module.exports = React.createClass({
 	render: function render() {
 		return React.createElement(
 			'div',
-			{ 'class': 'post-float' },
+			{ className: 'row' },
 			React.createElement(
-				'p',
-				{ 'class': 'post-meta' },
-				' April 26, 2016'
-			),
-			React.createElement(
-				'h3',
-				null,
+				'div',
+				{ className: 'three columns' },
 				React.createElement(
-					'a',
-					{ 'class': 'post-link', href: '/2016/04/26/hello' },
-					' The first post'
+					'p',
+					{ className: 'post-meta' },
+					' April 26, 2016'
 				),
-				' '
+				React.createElement(
+					'h3',
+					null,
+					React.createElement(
+						'a',
+						{ className: 'post-link', href: '/2016/04/26/hello' },
+						' The first post'
+					),
+					' '
+				),
+				React.createElement(
+					'p',
+					null,
+					'Learning to just jump in'
+				)
 			),
 			React.createElement(
-				'p',
+				'div',
+				{ className: 'three columns' },
+				React.createElement(
+					'p',
+					{ className: 'post-meta' },
+					' April 26, 2016'
+				),
+				React.createElement(
+					'h3',
+					null,
+					React.createElement(
+						'a',
+						{ className: 'post-link', href: '/2016/04/26/hello' },
+						' The first post'
+					),
+					' '
+				),
+				React.createElement(
+					'p',
+					null,
+					'Learning to just jump in'
+				)
+			),
+			React.createElement(
+				'div',
+				{ className: 'three columns' },
+				React.createElement(
+					'p',
+					{ className: 'post-meta' },
+					' April 26, 2016'
+				),
+				React.createElement(
+					'h3',
+					null,
+					React.createElement(
+						'a',
+						{ className: 'post-link', href: '/2016/04/26/hello' },
+						' The first post'
+					),
+					' '
+				),
+				React.createElement(
+					'p',
+					null,
+					'Learning to just jump in'
+				)
+			),
+			React.createElement(
+				'button',
 				null,
-				'Learning to just jump in'
+				'SHIT '
 			)
 		);
 	}
