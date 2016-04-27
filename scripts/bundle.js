@@ -32763,7 +32763,7 @@ module.exports = React.createClass({
 			{ className: 'row' },
 			React.createElement(
 				'div',
-				{ className: 'three columns' },
+				{ className: 'post four columns' },
 				React.createElement(
 					'p',
 					{ className: 'post-meta' },
@@ -32782,12 +32782,12 @@ module.exports = React.createClass({
 				React.createElement(
 					'p',
 					null,
-					'Learning to just jump in'
+					'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
 				)
 			),
 			React.createElement(
 				'div',
-				{ className: 'three columns' },
+				{ className: 'post four columns' },
 				React.createElement(
 					'p',
 					{ className: 'post-meta' },
@@ -32806,12 +32806,12 @@ module.exports = React.createClass({
 				React.createElement(
 					'p',
 					null,
-					'Learning to just jump in'
+					'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
 				)
 			),
 			React.createElement(
 				'div',
-				{ className: 'three columns' },
+				{ className: 'post four columns' },
 				React.createElement(
 					'p',
 					{ className: 'post-meta' },
@@ -32830,7 +32830,7 @@ module.exports = React.createClass({
 				React.createElement(
 					'p',
 					null,
-					'Learning to just jump in'
+					'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jumpin'
 				)
 			),
 			React.createElement(
@@ -32844,6 +32844,34 @@ module.exports = React.createClass({
 });
 
 },{"backbone":1,"react":167}],170:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var Backbone = require('backbone');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+		return React.createElement('div', null);
+	}
+});
+
+},{"backbone":1,"react":167}],171:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var Backbone = require('backbone');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+		return React.createElement('nav', { className: 'nav' });
+	}
+});
+
+},{"backbone":1,"react":167}],172:[function(require,module,exports){
 /*jslint node: true */
 "use strict";
 var React = require('react');
@@ -32853,9 +32881,11 @@ window.$ = require('jquery');
 window.jQuery = $;
 
 var BlogListComponent = require('./components/BlogListComponent.js');
+var HeaderComponent = require('./components/HeaderComponent.js');
+var FooterComponent = require('./components/FooterComponent.js');
 
 var main = document.getElementById('main');
-var nav = document.getElementById('nav');
+var header = document.getElementById('header');
 var footer = document.getElementById('footer');
 var Router = Backbone.Router.extend({
 	routes: {
@@ -32871,7 +32901,10 @@ var Router = Backbone.Router.extend({
 var r = new Router();
 Backbone.history.start();
 
-},{"./components/BlogListComponent.js":169,"backbone":1,"jquery":28,"react":167,"react-dom":31}]},{},[170])
+ReactDOM.render(React.createElement(HeaderComponent, { router: r }), header);
+ReactDOM.render(React.createElement(FooterComponent, { router: r }), footer);
+
+},{"./components/BlogListComponent.js":169,"./components/FooterComponent.js":170,"./components/HeaderComponent.js":171,"backbone":1,"jquery":28,"react":167,"react-dom":31}]},{},[172])
 
 
 //# sourceMappingURL=bundle.js.map

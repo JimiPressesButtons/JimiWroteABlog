@@ -7,9 +7,11 @@ window.$ = require('jquery');
 window.jQuery = $;
 
 var BlogListComponent = require('./components/BlogListComponent.js');
+var HeaderComponent = require('./components/HeaderComponent.js');
+var FooterComponent = require('./components/FooterComponent.js');
 
 var main = document.getElementById('main');
-var nav = document.getElementById('nav');
+var header = document.getElementById('header');
 var footer = document.getElementById('footer');
 var Router = Backbone.Router.extend({
 	routes:{
@@ -24,3 +26,6 @@ var Router = Backbone.Router.extend({
 
 var r = new Router();
 Backbone.history.start();
+
+ReactDOM.render(<HeaderComponent router={r}/>, header);
+ReactDOM.render(<FooterComponent router={r}/>, footer);

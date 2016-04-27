@@ -823,6 +823,32 @@ there.
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
-#nav {
+#header {
+  border-bottom: medium solid #66D9EF;
   height: 4em;
   background-color: grey; }
+  #header .nav {
+    border-top: medium solid #66D9EF;
+    background-color: white; }
+
+#footer {
+  border-top: medium solid #66D9EF;
+  height: 4em; }
+
+#main {
+  padding-top: 4%;
+  min-height: 70em; }
+
+.post h3 {
+  margin-top: none;
+  margin-bottom: .3em; }
+  .post h3 a {
+    font-size: 2rem;
+    text-decoration: none; }
+
+.post p {
+  font-size: 1rem;
+  line-height: 1.8; }
+
+.post p:first-child {
+  margin-bottom: .3em; }
