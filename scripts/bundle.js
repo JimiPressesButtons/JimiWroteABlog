@@ -33159,18 +33159,19 @@ module.exports = React.createClass({
 	setInitialState: function setInitialState() {
 		return {
 			postContent: [],
-			currentPost: []
+			postId: []
 		};
 	},
 	componentWillMount: function componentWillMount() {
-		this.setState({ currentPost: this.props.blogNumber });
+		this.setState({ postId: this.props.blogNumber });
+		this.setState({ postContent: PostObject(this.props.blogNumber) });
 	},
-	componetDidMount: function componetDidMount() {
-		this.setState({ postContent: PostObject(this.state.currentPost) });
-	},
+	componetDidMount: function componetDidMount() {},
 	render: function render() {
-		console.log(this.state.currentPost);
-		var boundClick = this.onNextPost.bind(this);
+		console.log(PostObject(this.state.postId));
+		console.log(this.state.postId);
+		var backBoundClick = this.onBackPost;
+		var nextBoundClick = this.onNextPost;
 		return React.createElement(
 			'div',
 			{ className: 'fullPost' },
@@ -33194,21 +33195,26 @@ module.exports = React.createClass({
 				null,
 				React.createElement(
 					'span',
-					null,
+					{ onClick: backBoundClick },
 					'Back'
 				),
 				React.createElement(
 					'span',
-					{ onClick: boundClick },
+					{ onClick: nextBoundClick },
 					'Next'
 				)
 			)
 		);
 	},
 	onNextPost: function onNextPost() {
-		this.state.currentPost++;
-		console.log(this.state.currentPost);
-		console.log(this.state.post);
+		this.state.postId++;
+		this.setState({ postContent: PostObject(this.state.postId) });
+		console.log(this.state.postContent);
+	},
+	onBackPost: function onBackPost() {
+		this.state.postId--;
+		this.setState({ postContent: PostObject(this.state.postId) });
+		console.log(this.state.postContent);
 	}
 });
 

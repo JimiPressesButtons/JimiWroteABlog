@@ -6,35 +6,43 @@ module.exports = React.createClass({
 	setInitialState:function(){
 		return{
 			postContent:[],
-			currentPost:[]
+			postId:[]
 		};
 	},
 	componentWillMount: function(){
-		this.setState({currentPost: this.props.blogNumber});
-		
+		this.setState({postId: this.props.blogNumber});
+		this.setState({postContent: PostObject(this.props.blogNumber)});
 	},
 	componetDidMount:function(){
-		this.setState({postContent: PostObject(this.state.currentPost)});
+
 	},
 	render:function(){
-		console.log(this.state.currentPost);
-		let boundClick = this.onNextPost.bind(this);
+		console.log(PostObject(this.state.postId));
+		console.log(this.state.postId);
+		let backBoundClick = this.onBackPost;
+		let nextBoundClick = this.onNextPost;
 		return(
 			<div className="fullPost">
 				<h1>{this.state.postContent.title}</h1>
 				<h4>{this.state.postContent.date}</h4>
 				<div>{this.state.postContent.body}</div>
 				<div>
-					<span>Back</span>
-					<span onClick={boundClick}>Next</span>
+					<span onClick={backBoundClick}>Back</span>
+					<span onClick={nextBoundClick}>Next</span>
 				</div>
 			</div>
 		);
 	},
 	onNextPost:function(){
-			this.state.currentPost++;
-			console.log(this.state.currentPost);
-			console.log(this.state.post)
+			this.state.postId++;
+			this.setState({postContent:PostObject(this.state.postId)});
+			console.log(this.state.postContent);
+			
+	},
+	onBackPost:function(){
+			this.state.postId--;
+			this.setState({postContent:PostObject(this.state.postId)});
+			console.log(this.state.postContent);
 			
 	}
 });
