@@ -825,11 +825,33 @@ there.
 /* Larger than Desktop HD */
 #header {
   border-bottom: medium solid #66D9EF;
-  height: 4em;
-  background-color: grey; }
+  background-color: white;
+  font-family: 'Copernicus Heavy'; }
+  #header .headerFace {
+    height: 5em; }
   #header .nav {
-    border-top: medium solid #66D9EF;
+    font-family: 'Interstate',sans-serif;
+    font-weight: 600;
     background-color: white; }
+    #header .nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      height: 3.5em; }
+      #header .nav ul li {
+        float: left; }
+      #header .nav ul li .active {
+        background-color: #4CAF50; }
+      #header .nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; }
+      #header .nav ul li a:hover {
+        background-color: #111; }
 
 #footer {
   border-top: medium solid #66D9EF;
@@ -839,16 +861,32 @@ there.
   padding-top: 4%;
   min-height: 70em; }
 
-.post h3 {
-  margin-top: none;
-  margin-bottom: .3em; }
-  .post h3 a {
+.post {
+  margin-bottom: 5em; }
+  .post h3 {
+    margin-top: none;
+    margin-bottom: .3em; }
+    .post h3 a {
+      font-size: 2.3rem;
+      text-decoration: none; }
+  .post p {
+    font-size: 1.15rem;
+    line-height: 1.8; }
+  .post p:first-child {
+    margin-bottom: .3em; }
+
+.fullPost {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  .fullPost h1 {
     font-size: 2rem;
-    text-decoration: none; }
-
-.post p {
-  font-size: 1rem;
-  line-height: 1.8; }
-
-.post p:first-child {
-  margin-bottom: .3em; }
+    line-height: 1.2;
+    text-decoration: underline;
+    font-weight: bold; }
+  .fullPost h3 {
+    line-height: 1.2;
+    font-size: 1.6rem; }
+  .fullPost p {
+    text-align: left; }

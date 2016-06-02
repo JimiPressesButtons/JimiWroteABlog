@@ -32760,83 +32760,386 @@ module.exports = React.createClass({
 	render: function render() {
 		return React.createElement(
 			'div',
-			{ className: 'row' },
+			null,
 			React.createElement(
 				'div',
-				{ className: 'post four columns' },
+				{ className: 'row' },
 				React.createElement(
-					'p',
-					{ className: 'post-meta' },
-					' April 26, 2016'
-				),
-				React.createElement(
-					'h3',
-					null,
+					'div',
+					{ className: 'post four columns' },
 					React.createElement(
-						'a',
-						{ className: 'post-link', href: '/2016/04/26/hello' },
-						' The first post'
+						'p',
+						{ className: 'post-meta' },
+						' August 24, 2016'
 					),
-					' '
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '#aug2416' },
+							' A new thing'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'This might all be a mistake. What does it mean that you\'re borrowing money to put where your mouth is? I feel like I\'m putting myself in one of those put-up-or-shut-up type situations but ...'
+					)
 				),
 				React.createElement(
-					'p',
-					null,
-					'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jumpin'
+					)
 				)
 			),
 			React.createElement(
 				'div',
-				{ className: 'post four columns' },
+				{ className: 'row' },
 				React.createElement(
-					'p',
-					{ className: 'post-meta' },
-					' April 26, 2016'
-				),
-				React.createElement(
-					'h3',
-					null,
+					'div',
+					{ className: 'post four columns' },
 					React.createElement(
-						'a',
-						{ className: 'post-link', href: '/2016/04/26/hello' },
-						' The first post'
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
 					),
-					' '
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
 				),
 				React.createElement(
-					'p',
-					null,
-					'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jumpin'
+					)
 				)
 			),
 			React.createElement(
 				'div',
-				{ className: 'post four columns' },
+				{ className: 'row' },
 				React.createElement(
-					'p',
-					{ className: 'post-meta' },
-					' April 26, 2016'
-				),
-				React.createElement(
-					'h3',
-					null,
+					'div',
+					{ className: 'post four columns' },
 					React.createElement(
-						'a',
-						{ className: 'post-link', href: '/2016/04/26/hello' },
-						' The first post'
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
 					),
-					' '
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
 				),
 				React.createElement(
-					'p',
-					null,
-					'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jumpin'
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jumpin'
+					)
 				)
 			),
 			React.createElement(
-				'button',
-				null,
-				'SHIT '
+				'div',
+				{ className: 'row' },
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jumpin'
+					)
+				)
+			),
+			React.createElement(
+				'div',
+				{ className: 'row' },
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump in'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'post four columns' },
+					React.createElement(
+						'p',
+						{ className: 'post-meta' },
+						' April 26, 2016'
+					),
+					React.createElement(
+						'h3',
+						null,
+						React.createElement(
+							'a',
+							{ className: 'post-link', href: '/2016/04/26/hello' },
+							' The first post'
+						),
+						' '
+					),
+					React.createElement(
+						'p',
+						null,
+						'Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jump Learning to just jumpin'
+					)
+				)
 			)
 		);
 	}
@@ -32848,16 +33151,68 @@ module.exports = React.createClass({
 
 var React = require('react');
 var Backbone = require('backbone');
+var PostObject = require('../../posts');
 
 module.exports = React.createClass({
 	displayName: 'exports',
 
+	setInitialState: function setInitialState() {
+		return {
+			postContent: [],
+			currentPost: []
+		};
+	},
+	componentWillMount: function componentWillMount() {
+		this.setState({ currentPost: this.props.blogNumber });
+	},
+	componetDidMount: function componetDidMount() {
+		this.setState({ postContent: PostObject(this.state.currentPost) });
+	},
 	render: function render() {
-		return React.createElement('div', null);
+		console.log(this.state.currentPost);
+		var boundClick = this.onNextPost.bind(this);
+		return React.createElement(
+			'div',
+			{ className: 'fullPost' },
+			React.createElement(
+				'h1',
+				null,
+				this.state.postContent.title
+			),
+			React.createElement(
+				'h4',
+				null,
+				this.state.postContent.date
+			),
+			React.createElement(
+				'div',
+				null,
+				this.state.postContent.body
+			),
+			React.createElement(
+				'div',
+				null,
+				React.createElement(
+					'span',
+					null,
+					'Back'
+				),
+				React.createElement(
+					'span',
+					{ onClick: boundClick },
+					'Next'
+				)
+			)
+		);
+	},
+	onNextPost: function onNextPost() {
+		this.state.currentPost++;
+		console.log(this.state.currentPost);
+		console.log(this.state.post);
 	}
 });
 
-},{"backbone":1,"react":167}],171:[function(require,module,exports){
+},{"../../posts":174,"backbone":1,"react":167}],171:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -32867,11 +33222,120 @@ module.exports = React.createClass({
 	displayName: 'exports',
 
 	render: function render() {
-		return React.createElement('nav', { className: 'nav' });
+		return React.createElement(
+			'div',
+			null,
+			React.createElement(
+				'div',
+				{ className: 'row' },
+				React.createElement(
+					'div',
+					{ className: 'four columns' },
+					React.createElement(
+						'p',
+						null,
+						'Jimi Stitts'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'four columns' },
+					React.createElement(
+						'p',
+						null,
+						'JimiTookPictures'
+					),
+					React.createElement(
+						'p',
+						null,
+						'JimiTweeted'
+					),
+					React.createElement(
+						'p',
+						null,
+						'JimiPressesButtons'
+					)
+				)
+			)
+		);
 	}
 });
 
 },{"backbone":1,"react":167}],172:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var Backbone = require('backbone');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	componentWillMount: function componentWillMount() {
+		var _this = this;
+
+		this.props.router.on('route', function () {
+			_this.forceUpdate();
+		});
+	},
+	render: function render() {
+		return React.createElement(
+			'div',
+			null,
+			React.createElement(
+				'div',
+				null,
+				React.createElement('img', { className: 'headerFace', src: './assets/Face.png' }),
+				'jimiwroteablog'
+			),
+			React.createElement(
+				'nav',
+				{ className: 'nav' },
+				React.createElement(
+					'ul',
+					null,
+					React.createElement(
+						'li',
+						null,
+						React.createElement(
+							'a',
+							{ href: '' },
+							'DICK'
+						)
+					),
+					React.createElement(
+						'li',
+						null,
+						React.createElement(
+							'a',
+							{ href: '' },
+							'TANGO'
+						)
+					),
+					React.createElement(
+						'li',
+						null,
+						React.createElement(
+							'a',
+							{ href: '' },
+							'ROGER'
+						)
+					),
+					React.createElement(
+						'li',
+						null,
+						React.createElement(
+							'a',
+							{ href: '' },
+							'ROCKHOLD'
+						)
+					)
+				)
+			)
+		);
+	}
+});
+
+},{"backbone":1,"react":167}],173:[function(require,module,exports){
 /*jslint node: true */
 "use strict";
 var React = require('react');
@@ -32883,6 +33347,7 @@ window.jQuery = $;
 var BlogListComponent = require('./components/BlogListComponent.js');
 var HeaderComponent = require('./components/HeaderComponent.js');
 var FooterComponent = require('./components/FooterComponent.js');
+var PostComponent = require('./components/BlogPosts/PostComponent.js');
 
 var main = document.getElementById('main');
 var header = document.getElementById('header');
@@ -32890,21 +33355,41 @@ var footer = document.getElementById('footer');
 var Router = Backbone.Router.extend({
 	routes: {
 		'': 'blogList',
+		'aug2416': 'Post1',
 		'blogPost': 'blogPost'
 
 	},
 	blogList: function blogList() {
-		ReactDOM.render(React.createElement(BlogListComponent, null), main);
+		ReactDOM.render(React.createElement(BlogListComponent, { router: router }), main);
+	},
+	blogPost: function blogPost() {
+		ReactDOM.render(React.createElement(PostComponent, { router: router, blogNumber: 0 }), main);
 	}
 });
 
-var r = new Router();
+var router = new Router();
 Backbone.history.start();
 
-ReactDOM.render(React.createElement(HeaderComponent, { router: r }), header);
-ReactDOM.render(React.createElement(FooterComponent, { router: r }), footer);
+ReactDOM.render(React.createElement(HeaderComponent, { router: router }), header);
+ReactDOM.render(React.createElement(FooterComponent, { router: router }), footer);
 
-},{"./components/BlogListComponent.js":169,"./components/FooterComponent.js":170,"./components/HeaderComponent.js":171,"backbone":1,"jquery":28,"react":167,"react-dom":31}]},{},[172])
+},{"./components/BlogListComponent.js":169,"./components/BlogPosts/PostComponent.js":170,"./components/FooterComponent.js":171,"./components/HeaderComponent.js":172,"backbone":1,"jquery":28,"react":167,"react-dom":31}],174:[function(require,module,exports){
+"use strict";
+
+module.exports = function (postNumber) {
+	var allBlogs = [{
+		title: "A NEW THING",
+		date: "Aug 24, 2016",
+		body: "<p>This might all be a mistake.</p><p>What does it mean that you're borrowing money to put where your mouth is? I feel like I'm putting myself in one of those put-up-or-shut-up type situations but it's pretty hard to discern if this is another one of my self-delusions or this is me actually grabbing the bull by the horns. Could this be another O'Henry Awards or is this me now?</p><p>I'm waging five figures that it's the latter. That must mean something. I'm unsure of myself. This feels ridiculous typing all this for public but they told me to keep a blog, so I wrote a blog.</p><p> The only thing I know is what I don't want. I worked in IT for a big company and it was okay just like staring at ceiling tiles for a hour at the doctor's office is okay. But I was a cost to the business and I felt like a cost. Even if I worked as hard and as consistent as I could it still felt ... okay. I know I don't want to be a cost, I want to be apart of creating the value. </p><p> I don't want to go back to a traditional school. That ship has sailed for me. The Tower on campus feels just as ominous now as it did my first day on campus all those years ago. And while at school I felt like I was prepping for something I wasn't apart of. I'd have to open up some really weird cans of worms to start figuring out why I was so anxious and adrift at school. All I know is that in comparison, I have thrived outside of the traditional school system and I don't want to go through that again.</p><p>So, this feels like when I talk about why I decided to enroll at a coding bootcamp or what it was that made me grab life by the balls and twist but I think that this fire that's burning in me is special and trying to frame it so as to articulate it would be a disservice to it.</p>"
+	}, {
+		title: "AN OLD THING",
+		date: "Oct 05, 2099",
+		body: "<p>This might all be a mistake.</p><p>What does it mean that you're borrowing money to put where your mouth is? I feel like I'm putting myself in one of those put-up-or-shut-up type situations but it's pretty hard to discern if this is another one of my self-delusions or this is me actually grabbing the bull by the horns. Could this be another O'Henry Awards or is this me now?</p><p>I'm waging five figures that it's the latter. That must mean something. I'm unsure of myself. This feels ridiculous typing all this for public but they told me to keep a blog, so I wrote a blog.</p><p> The only thing I know is what I don't want. I worked in IT for a big company and it was okay just like staring at ceiling tiles for a hour at the doctor's office is okay. But I was a cost to the business and I felt like a cost. Even if I worked as hard and as consistent as I could it still felt ... okay. I know I don't want to be a cost, I want to be apart of creating the value. </p><p> I don't want to go back to a traditional school. That ship has sailed for me. The Tower on campus feels just as ominous now as it did my first day on campus all those years ago. And while at school I felt like I was prepping for something I wasn't apart of. I'd have to open up some really weird cans of worms to start figuring out why I was so anxious and adrift at school. All I know is that in comparison, I have thrived outside of the traditional school system and I don't want to go through that again.</p><p>So, this feels like when I talk about why I decided to enroll at a coding bootcamp or what it was that made me grab life by the balls and twist but I think that this fire that's burning in me is special and trying to frame it so as to articulate it would be a disservice to it.</p>"
+	}];
+	return allBlogs[postNumber];
+};
+
+},{}]},{},[173])
 
 
 //# sourceMappingURL=bundle.js.map
